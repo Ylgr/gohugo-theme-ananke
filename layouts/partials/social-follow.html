@@ -72,6 +72,18 @@
   {{- partial "new-window-icon.html" . -}}
 </a>
 {{ end }}
+{{ with .Param "telegram" }}
+<a href="{{ . }}" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Telegram link" rel="noopener" aria-label="follow on Telegram——Opens in a new window">
+  {{ partial "svg/telegram.svg" (dict "size" $icon_size) }}
+  {{- partial "new-window-icon.html" . -}}
+</a>
+{{ end }}
+{{ with .Param "email" }}
+<a href="{{ . }}" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Email to" rel="noopener" aria-label="follow on Telegram——Opens in a new window">
+  {{ partial "svg/email.svg" (dict "size" $icon_size) }}
+  {{- partial "new-window-icon.html" . -}}
+</a>
+{{ end }}
 {{ with .Param "rss" }}
 <a href="{{ . }}" target="_blank" class="link-transition rss link dib z-999 pt3 pt0-l mr1" title="RSS link" rel="noopener" aria-label="RSS——Opens in a new window">
   {{ partial "svg/rss.svg" (dict "size" $icon_size) }}
