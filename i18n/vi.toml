@@ -1,35 +1,35 @@
 [more]
-other = "More"
+other = "Thêm"
 
 [allTitle]
-other = "All {{.Title }}"
+other = "Tất cả {{.Title }}"
 
 [recentTitle]
-other = "Recent {{.Title }}"
+other = "Gần đây {{.Title }}"
 
 [readMore]
-other = "read more"
+other = "Đọc thêm"
 
 [whatsInThis]
-other = "What's in this {{ .Type }}"
+other = "Có gì bên trong? {{ .Type }}"
 
 [related]
-other = "Related"
+other = "Liên hệ"
 
 [yourName]
-other = "Your Name"
+other = "Tên bạn"
 
 [emailAddress]
-other = "Email Address"
+other = "EĐịa chỉ Email"
 
 [message]
-other = "Message"
+other = "Tin nhắn"
 
 [emailRequiredNote]
-other = "An email address is required."
+other = "Email là yêu cầu bắt buộc."
 
 [send]
-other = "Send"
+other = "Gửi"
 
 [taxonomyPageList]
 other = "Below you will find pages that utilize the taxonomy term “{{ .Title }}”"
