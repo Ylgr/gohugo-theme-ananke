@@ -32,4 +32,4 @@ other = "Email là yêu cầu bắt buộc."
 other = "Gửi"
 
 [taxonomyPageList]
-other = "Below you will find pages that utilize the taxonomy term “{{ .Title }}”"
+other = "Những bài viết có liên quan tới “{{ .Title }}”"
