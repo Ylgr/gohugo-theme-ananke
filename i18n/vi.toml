@@ -5,7 +5,7 @@ other = "Thêm"
 other = "Tất cả {{.Title }}"
 
 [recentTitle]
-other = "Gần đây {{.Title }}"
+other = "Nội dung gần đây thuộc {{.Title }}"
 
 [readMore]
 other = "Đọc thêm"
@@ -20,7 +20,7 @@ other = "Liên hệ"
 other = "Tên bạn"
 
 [emailAddress]
-other = "EĐịa chỉ Email"
+other = "Địa chỉ Email"
 
 [message]
 other = "Tin nhắn"
